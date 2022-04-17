@@ -1,1 +1,16 @@
+::before, ::after {
+  box-sizing; boarder-box;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
 
+body {
+  margin: 0;
+}
+.Video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thumbnail {
+  position: relative;
+}
